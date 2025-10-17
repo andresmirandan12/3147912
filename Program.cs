@@ -122,19 +122,65 @@ namespace estructuradecontrol_3147912
             //Console.WriteLine($" Total a recibir: {totalRecibir}");
 
             // punto 2//
-            Console.WriteLine("ingrrese el valor de su matricula:");
-            double matricula = double.Parse(Console.ReadLine());
+            //Console.WriteLine("ingrrese el valor de su matricula:");
+            //double matricula = double.Parse(Console.ReadLine());
 
-            double cuota1= matricula * 0.40;
-            double cuota2 = matricula * 0.25;
-            double cuota3 = matricula * 0.20;
-            double cuota4 = matricula * 0.15;
+            //double cuota1= matricula * 0.40;
+            //double cuota2 = matricula * 0.25;
+            //double cuota3 = matricula * 0.20;
+            //double cuota4 = matricula * 0.15;
 
-            Console.WriteLine("\n===== DETALLES DE PAGOS =====");
-            Console.WriteLine($"Valor de la primera cuota: {cuota1}");
-            Console.WriteLine($"Valor de la segunda cuota: {cuota2}");
-            Console.WriteLine($"Valor de la tercera cuota: {cuota3}");
-            Console.WriteLine($"Valor de la cuarta cuota: {cuota4}");
+            //Console.WriteLine("\n===== DETALLES DE PAGOS =====");
+            //Console.WriteLine($"Valor de la primera cuota: {cuota1}");
+            //Console.WriteLine($"Valor de la segunda cuota: {cuota2}");
+            //Console.WriteLine($"Valor de la tercera cuota: {cuota3}");
+            //Console.WriteLine($"Valor de la cuarta cuota: {cuota4}");
+
+
+            //Console.WriteLine("=== EJERCICIO 3 ===");
+            //Console.Write("Ingrese su nombre: ");
+            //string nombre = Console.ReadLine();
+
+            //Console.Write("Ingrese su dirección: ");
+            //string direccion = Console.ReadLine();
+
+            //Console.Write("Ingrese su año de nacimiento: ");
+            //int anioNacimiento = int.Parse(Console.ReadLine());
+
+            //int anioActual = DateTime.Now.Year;
+            //int edad = anioActual - anioNacimiento;
+
+            //Console.WriteLine($"\nNombre: {nombre}");
+            //Console.WriteLine($"Dirección: {direccion}");
+            //Console.WriteLine($"Año de nacimiento: {anioNacimiento}");
+            //Console.WriteLine($"Edad: {edad} años");
+
+            //Console.WriteLine("=== EJERCICIO 4 ===");
+
+            //double tiempo1L = 1.5; 
+            //double proporcion = tiempo1L / 1.0;
+
+            //double tiempo3L = 3 * proporcion;
+            //double tiempo5L = 5 * proporcion;
+
+            //Console.WriteLine($"Tiempo para llenar balde de 1 litro: {tiempo1L} horas");
+            //Console.WriteLine($"Tiempo para llenar balde de 3 litros: {tiempo3L} horas");
+            //Console.WriteLine($"Tiempo para llenar balde de 5 litros: {tiempo5L} horas");
+
+
+            Console.WriteLine("=== EJERCICIO 5 ===");
+
+            double tiempo7m = 5; // horas
+            double altura7m = 7; // metros
+
+            double velocidad = tiempo7m / altura7m; // horas por metro
+
+            Console.Write("Ingrese la altura que desea subir (en metros): ");
+            double nuevaAltura = double.Parse(Console.ReadLine());
+
+            double nuevoTiempo = velocidad * nuevaAltura;
+
+            Console.WriteLine($"El tiempo estimado para subir {nuevaAltura} metros es de {nuevoTiempo:F2} horas");
 
 
 
