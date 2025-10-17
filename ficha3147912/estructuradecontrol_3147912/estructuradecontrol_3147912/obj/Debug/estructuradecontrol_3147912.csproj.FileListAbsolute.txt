@@ -1,0 +1,8 @@
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\bin\Debug\estructuradecontrol_3147912.exe.config
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\bin\Debug\estructuradecontrol_3147912.exe
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\bin\Debug\estructuradecontrol_3147912.pdb
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\obj\Debug\estructuradecontrol_3147912.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\obj\Debug\estructuradecontrol_3147912.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\obj\Debug\estructuradecontrol_3147912.exe
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\obj\Debug\estructuradecontrol_3147912.pdb
+C:\Users\Usuario\source\repos\ficha3147912\estructuradecontrol_3147912\estructuradecontrol_3147912\obj\Debug\estructuradecontrol_3147912.exe.config
