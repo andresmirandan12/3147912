@@ -168,21 +168,43 @@ namespace estructuradecontrol_3147912
             //Console.WriteLine($"Tiempo para llenar balde de 5 litros: {tiempo5L} horas");
 
 
-            Console.WriteLine("=== EJERCICIO 5 ===");
+            //Console.WriteLine("=== EJERCICIO 5 ===");
 
-            double tiempo7m = 5; // horas
-            double altura7m = 7; // metros
+            //double tiempo7m = 5; // horas
+            //double altura7m = 7; // metros
 
-            double velocidad = tiempo7m / altura7m; // horas por metro
+            //double velocidad = tiempo7m / altura7m; // horas por metro
 
-            Console.Write("Ingrese la altura que desea subir (en metros): ");
-            double nuevaAltura = double.Parse(Console.ReadLine());
+            //Console.Write("Ingrese la altura que desea subir (en metros): ");
+            //double nuevaAltura = double.Parse(Console.ReadLine());
 
-            double nuevoTiempo = velocidad * nuevaAltura;
+            //double nuevoTiempo = velocidad * nuevaAltura;
 
-            Console.WriteLine($"El tiempo estimado para subir {nuevaAltura} metros es de {nuevoTiempo:F2} horas");
+            //Console.WriteLine($"El tiempo estimado para subir {nuevaAltura} metros es de {nuevoTiempo:F2} horas");
 
+            Console.WriteLine("=== EJERCICIO 6 ===\n");
 
+         
+            Console.Write("Ingrese el monto del préstamo: ");
+            double monto = double.Parse(Console.ReadLine());
+
+            
+            double tasaAnual = 0.05; 
+            int plazoAnios = 5;
+
+            
+            double interesAnual = monto * tasaAnual;
+            double interesTrimestre = interesAnual / 4;
+            double interesMensual = interesAnual / 12;  
+            double totalIntereses = interesAnual * plazoAnios;
+            double totalPagar = monto + totalIntereses;
+
+            
+            Console.WriteLine($"\n--- Resultados ---");
+            Console.WriteLine($"Interés pagado en un año: ${interesAnual:F2}");
+            Console.WriteLine($"Interés pagado en el tercer trimestre: ${interesTrimestre:F2}");
+            Console.WriteLine($"Interés pagado en el primer mes: ${interesMensual:F2}");
+            Console.WriteLine($"Total a pagar al finalizar el préstamo (incluyendo intereses): ${totalPagar:F2}");
 
 
         }
