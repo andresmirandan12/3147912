@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\estructuradecontrol_3147912\\estructuradecontrol_3147912\\Program.cs",
               "RelativeDocumentMoniker": "estructuradecontrol_3147912\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\estructuradecontrol_3147912\\estructuradecontrol_3147912\\Program.cs",
-              "RelativeToolTip": "estructuradecontrol_3147912\\Program.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAUwM4AAAByAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\estructuradecontrol_3147912\\estructuradecontrol_3147912\\Program.cs*",
+              "RelativeToolTip": "estructuradecontrol_3147912\\Program.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T21:05:13.667Z",
               "EditorCaption": ""
