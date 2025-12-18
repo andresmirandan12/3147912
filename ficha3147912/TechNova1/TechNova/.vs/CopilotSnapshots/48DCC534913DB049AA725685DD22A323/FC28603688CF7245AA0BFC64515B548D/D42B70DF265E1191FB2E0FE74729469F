@@ -1,0 +1,73 @@
+﻿@model TechNova.Models.DetalleVenta
+@{
+    ViewData["Title"] = "Eliminar Detalle";
+}
+
+<div class="container col-7 mt-5 p-4 rounded"
+     style="background:#0F0F0F;color:#D9EFFF;
+            border:1px solid #1A1A1A;box-shadow:0 0 18px #00E1FF55;">
+
+    <h2 class="fw-bold text-center mb-3"
+        style="color:#FF4C4C;text-shadow:0 0 12px #FF4C4C;">
+        ⚠ Eliminar Detalle de Venta
+    </h2>
+
+    <p class="text-center"
+       style="color:#8899AA;">
+        Esta acción no podrá deshacerse.
+    </p>
+
+    <hr style="border-color:#222;" />
+
+    <div class="p-3 rounded mb-4"
+         style="background:#181818;border:1px solid #00E1FF33;
+                box-shadow:0 0 10px #00E1FF22;">
+
+        <dl class="row small">
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Detalle #</dt>
+            <dd class="col-sm-8">@Model.DetalleId</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Venta Asociada</dt>
+            <dd class="col-sm-8">
+                <a asp-controller="Ventas" asp-action="Details" asp-route-id="@Model.VentaId"
+                   style="color:#00E1FF;text-shadow:0 0 6px #00E1FF;text-decoration:none;">
+                    Venta #@Model.VentaId
+                </a>
+            </dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Producto</dt>
+            <dd class="col-sm-8">@Model.Producto.Nombre</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Cantidad</dt>
+            <dd class="col-sm-8">@Model.Cantidad</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Precio Unitario</dt>
+            <dd class="col-sm-8">@Model.PrecioUnitario.ToString("C")</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Subtotal</dt>
+            <dd class="col-sm-8 fw-bold"
+                style="color:#00E676;text-shadow:0 0 8px #00FFAA;">
+                @((Model.Cantidad * Model.PrecioUnitario).ToString("C"))
+            </dd>
+        </dl>
+    </div>
+
+    <form asp-action="Delete">
+
+        <input type="hidden" asp-for="DetalleId" />
+
+        <button class="btn w-100 fw-bold text-dark mb-3"
+                style="background:#FF4C4C;border:none;border-radius:10px;
+                       box-shadow:0 0 12px #FF4C4C;">
+            Eliminar Definitivamente
+        </button>
+
+        <a asp-action="Index"
+           class="btn w-100 fw-bold"
+           style="border-radius:10px;border:1px solid #00E1FF55;
+                  color:#D9EFFF;background:#181818;">
+            Cancelar
+        </a>
+    </form>
+
+</div>

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<TechNova.Models.Venta>
+@{
+    ViewData["Title"] = "Ventas";
+}
+
+<div class="container mt-4 col-10 p-4 rounded"
+     style="background:#0F0F0F;color:#D9EFFF;
+            border:1px solid #1A1A1A;box-shadow:0 0 18px #00E1FF55;">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="fw-bold"
+            style="color:#00E1FF;text-shadow:0 0 12px #00E1FF;">
+            <i class="bi bi-cart-check"></i> Ventas
+        </h1>
+
+        <a class="btn fw-bold text-dark"
+           style="background:#00E1FF;border:none;border-radius:10px;
+                  box-shadow:0 0 10px #00E1FF;"
+           asp-action="Create">
+            <i class="bi bi-plus-circle"></i> Registrar Venta
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-dark table-hover align-middle"
+               style="background:#1A1A1A;color:#D9EFFF; border-radius:10px; overflow:hidden;">
+            <thead style="background:#00E1FF;color:#0F0F0F;">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Cliente</th>
+                    <th class="text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr style="background:#181818;">
+                        <td>@item.FechaVenta.ToString("yyyy-MM-dd HH:mm")</td>
+                        <td>@item.Cliente.Nombre</td>
+                        <td class="text-center">
+                            <a class="btn fw-bold text-dark me-1"
+                               style="background:#00E1FF;border:none;border-radius:8px;
+                                          box-shadow:0 0 8px #00E1FF;"
+                               asp-action="Details" asp-route-id="@item.VentaId">
+                                <i class="bi bi-eye"></i> Detalles
+                            </a>
+                            <a class="btn fw-bold text-dark"
+                               style="background:#FF4C4C;border:none;border-radius:8px;
+                                          box-shadow:0 0 8px #FF4C4C;"
+                               asp-action="Delete" asp-route-id="@item.VentaId">
+                                <i class="bi bi-trash"></i> Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

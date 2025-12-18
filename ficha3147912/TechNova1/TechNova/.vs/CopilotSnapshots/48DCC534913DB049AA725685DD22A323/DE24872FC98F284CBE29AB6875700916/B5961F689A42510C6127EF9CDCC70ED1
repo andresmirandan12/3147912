@@ -1,0 +1,48 @@
+﻿@model TechNova.Models.Producto
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<div class="container col-7 mt-5 p-4 rounded"
+     style="background:#0F0F0F;color:#D9EFFF;
+            border:1px solid #1A1A1A;box-shadow:0 0 18px #00E1FF55;">
+
+    <h1 class="text-center fw-bold mb-4"
+        style="color:#00E1FF;text-shadow:0 0 12px #00E1FF;">
+        📄 Detalles del Producto
+    </h1>
+
+    <div class="p-4 rounded shadow mb-4"
+         style="background:#181818;border:1px solid #00E1FF55;
+                box-shadow:0 0 12px #00E1FF33;">
+        <dl class="row small">
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Nombre:</dt>
+            <dd class="col-sm-8">@Model.Nombre</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Descripción:</dt>
+            <dd class="col-sm-8">@Model.Descripcion</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Precio:</dt>
+            <dd class="col-sm-8">@Model.Precio.ToString("C")</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#00E1FF;">Stock:</dt>
+            <dd class="col-sm-8">@Model.Stock</dd>
+        </dl>
+    </div>
+
+    <div class="text-center mt-3">
+        <a asp-action="Edit" asp-route-id="@Model.ProductoId"
+           class="btn fw-bold text-dark me-2"
+           style="background:#00E1FF;border:none;border-radius:10px;
+                  box-shadow:0 0 10px #00E1FF;">
+            Editar
+        </a>
+        <a asp-action="Index"
+           class="btn fw-bold text-dark"
+           style="background:#FF4C4C;border:none;border-radius:10px;
+                  box-shadow:0 0 10px #FF4C4C;">
+            Volver
+        </a>
+    </div>
+</div>

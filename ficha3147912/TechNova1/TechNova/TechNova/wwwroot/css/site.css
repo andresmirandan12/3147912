@@ -1,0 +1,437 @@
+html {
+  font-size: 14px;
+}
+
+/* Product details card styles */
+.tn-details-card {
+  background: #0F0F0F;
+  color: var(--tn-primary-contrast);
+  border: 1px solid #111;
+  box-shadow: 0 0 18px rgba(47,182,90,0.12);
+  border-radius: 12px;
+}
+
+.tn-details-header {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.tn-details-header h1 {
+  margin: 0;
+  color: var(--tn-accent);
+  font-size: 2.6rem;
+  font-weight: 800;
+  text-shadow: none;
+}
+
+.tn-details-inner {
+  background: #181818;
+  border: 1px solid rgba(47,182,90,0.08);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.detail-label {
+  color: var(--tn-accent);
+  font-weight: 700;
+}
+
+.detail-value {
+  color: var(--tn-primary-contrast);
+}
+
+.btn-cancel-custom {
+  background: #ff6b6b;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,76,76,0.18);
+  border: none;
+}
+
+.btn-action-space { gap: 1rem; display: inline-flex; }
+
+/* Page title style for big green header */
+.tn-page-title {
+  color: var(--tn-accent);
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-shadow: none;
+  margin: 0;
+}
+
+.badge-inventory {
+  background: #FFC107;
+  color: #121212;
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+}
+
+.btn-danger-custom {
+  background: #FF4C4C;
+  color: #121212;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(255,76,76,0.22);
+}
+
+.btn-details {
+  background: #181818;
+  color: var(--tn-primary-contrast);
+  border: 1px solid rgba(47,182,90,0.12);
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(47,182,90,0.12);
+}
+
+/* Standard index box used across index pages */
+.tn-index-box {
+  background: #0F0F0F;
+  color: #D9EFFF;
+  border: 1px solid #1A1A1A;
+  box-shadow: 0 0 18px #00E1FF55;
+}
+
+/* FORCE: replace white backgrounds (inline or common bootstrap classes) with ventas dark box style
+   This will convert non-text white areas to the agreed green/dark theme. */
+
+/* inline style bg matches */
+[style*="background:#fff"],
+[style*="background:#FFF"],
+[style*="background:#ffffff"],
+[style*="background:#FFFFFF"],
+[style*="background:white"],
+[style*="background: white"] {
+  background-color: #0F0F0F !important;
+  color: #D9EFFF !important;
+  border: 1px solid #1A1A1A !important;
+  box-shadow: 0 0 18px #00E1FF55 !important;
+}
+
+/* Bootstrap common white/light backgrounds */
+.bg-white, .bg-light {
+  background-color: #0F0F0F !important;
+  color: #D9EFFF !important;
+  border: 1px solid #1A1A1A !important;
+  box-shadow: 0 0 18px #00E1FF55 !important;
+}
+
+/* Non-dark tables (default) -> make them dark themed */
+.table:not(.table-dark) {
+  background-color: #181818 !important;
+  color: var(--tn-primary-contrast) !important;
+  border-radius: 10px !important;
+}
+
+/* Ensure table thead and cells don't stay white */
+.table thead th, .table thead td {
+  background-color: var(--tn-surface) !important;
+  color: var(--tn-primary-contrast) !important;
+}
+
+/* form controls that show as white inputs */
+.form-control, .form-select, textarea {
+  background-color: #101010 !important;
+  color: var(--tn-primary-contrast) !important;
+  border: 1px solid var(--tn-border) !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+:root {
+  /* Paleta negra / oscura */
+  --tn-bg: #000000; /* fondo principal */
+  --tn-surface: #0b0b0b; /* superficies (navbar, header) */
+  --tn-primary: #141414; /* color principal para elementos sólidos */
+  --tn-primary-contrast: #f8f9fa; /* texto claro */
+  --tn-accent: #2fb65a; /* acento verde */
+  --tn-muted: #9dbba9; /* textos secundarios */
+  --tn-border: #122814; /* bordes */
+  --tn-danger: #d9534f;
+  --tn-focus-shadow: 0 0 0 0.12rem rgba(47,182,90,0.12);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: var(--tn-bg);
+  color: var(--tn-primary-contrast);
+}
+
+/* Enlaces y navegación */
+a, .nav-link {
+  color: var(--tn-accent);
+}
+a:hover, .nav-link:hover {
+  color: #86e8a0;
+  text-decoration: underline;
+}
+
+/* Navbar y encabezados */
+.navbar, .bg-light {
+  background-color: var(--tn-surface) !important;
+  border-bottom: 1px solid var(--tn-border);
+}
+.navbar .nav-link, .navbar-brand, .bg-light * {
+  color: var(--tn-primary-contrast) !important;
+}
+
+/* Botones */
+.btn-primary {
+  background: linear-gradient(180deg, #202020, #121212);
+  border-color: var(--tn-border);
+  color: var(--tn-primary-contrast);
+}
+.btn-primary:hover {
+  background: linear-gradient(180deg, #2a2a2a, #151515);
+  color: var(--tn-primary-contrast);
+}
+.btn-outline-primary {
+  color: var(--tn-primary-contrast);
+  border-color: var(--tn-border);
+}
+.btn-outline-primary:hover {
+  background-color: rgba(255,255,255,0.02);
+}
+
+/* Inputs y foco accesible */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: var(--tn-focus-shadow);
+  border-color: var(--tn-accent);
+}
+
+.form-control, .form-select, textarea {
+  background-color: #0e0e0e;
+  color: var(--tn-primary-contrast);
+  border: 1px solid var(--tn-border);
+}
+
+.form-control::placeholder {
+  color: var(--tn-muted);
+}
+
+/* Tarjetas y superficies */
+.card {
+  background-color: #0f0f0f;
+  color: var(--tn-primary-contrast);
+  border: 1px solid var(--tn-border);
+}
+
+/* Tablas */
+.table thead {
+  background-color: var(--tn-surface);
+  color: var(--tn-primary-contrast);
+}
+.table tbody tr {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+/* Footer fijo en la parte baja */
+footer {
+  background-color: var(--tn-surface);
+  color: var(--tn-primary-contrast);
+  border-top: 1px solid var(--tn-border);
+}
+
+/* Validación */
+.text-danger {
+  color: var(--tn-danger) !important;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--tn-muted);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+/* Ajustes pequeños para contraste en elementos claros */
+.bg-white, .table, .container, .card-body {
+  background-color: transparent;
+}
+
+/* Formularios: forma y distribución */
+/* Contenedor centrado y con apariencia de tarjeta */
+.tn-form {
+  max-width: 920px;
+  margin: 1.5rem auto;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(180deg, rgba(15,58,35,0.95), rgba(11,43,24,0.95));
+  border: 1px solid var(--tn-border);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+
+/* Grid responsive: una columna en móviles, dos columnas en ancho >=768px */
+.tn-form .form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem 1.25rem;
+}
+@media (min-width: 768px) {
+  .tn-form .form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Asegura que los elementos que deben ocupar toda la fila lo hagan */
+.tn-form .full-row {
+  grid-column: 1 / -1;
+}
+
+/* Estética de campos: más altos, bordes redondeados y separación clara */
+.tn-form label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--tn-primary-contrast);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.tn-form .form-control,
+.tn-form .form-select,
+.tn-form textarea {
+  height: 44px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #0a0a0a;
+  border: 1px solid var(--tn-border);
+  transition: box-shadow .12s ease, transform .06s ease;
+}
+
+.tn-form textarea {
+  min-height: 110px;
+  height: auto;
+  padding-top: 0.6rem;
+}
+
+.tn-form .form-control:focus,
+.tn-form .form-select:focus,
+.tn-form textarea:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: var(--tn-focus-shadow);
+  border-color: var(--tn-accent);
+}
+
+/* Título dentro del formulario con delineado/acento verde */
+.tn-form h1, .tn-form .tn-title {
+  color: var(--tn-accent);
+  text-shadow: 0 0 8px rgba(47,182,90,0.10);
+}
+
+/* Agrupaciones */
+.tn-form .form-group {
+  margin-bottom: 0.9rem;
+}
+
+/* Checkbox y radio estilizados */
+.tn-form .form-check {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.tn-form .form-check-input {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 6px;
+  border: 1px solid var(--tn-border);
+}
+
+/* Acciones del formulario */
+.tn-form .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.tn-form .btn {
+  border-radius: 10px;
+  padding: 0.55rem 1rem;
+  font-weight: 600;
+}
+
+.tn-form .btn-primary {
+  background: linear-gradient(180deg, var(--tn-primary), var(--tn-accent));
+  border: 1px solid rgba(0,0,0,0.15);
+  color: var(--tn-primary-contrast);
+}
+
+.tn-form .btn-secondary {
+  background: transparent;
+  color: var(--tn-primary-contrast);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Mensajes de ayuda y validación */
+.tn-form .form-text {
+  color: var(--tn-muted);
+  font-size: 0.85rem;
+}
+
+.tn-form .is-invalid {
+  border-color: rgba(163,58,58,0.9);
+  box-shadow: 0 0 0 0.12rem rgba(163,58,58,0.12);
+}
+
+/* Mejora de espaciado en formularios dentro de tablas o listados */
+form .row > .col-md-6,
+form .row > .col-sm-6 {
+  margin-bottom: 0.5rem;
+}
+
+/* ------------------------------------------------------------------
+   Safety overrides: force any remaining cyan/neon inline styles to use
+   the agreed green accent. Select elements whose inline style contains
+   the old cyan hex and override color, border-color, box-shadow and
+   text-shadow so the whole site looks consistent without editing all
+   remaining views. Uses !important to override inline styles.
+   ------------------------------------------------------------------ */
+
+[style*="#00E1FF"],
+[style*="#00aEEF"],
+[style*="#00AEEF"],
+[style*="#00e1ff"] {
+  color: var(--tn-accent) !important;
+  border-color: rgba(47,182,90,0.12) !important;
+  box-shadow: 0 0 12px rgba(47,182,90,0.08) !important;
+  text-shadow: 0 0 8px rgba(47,182,90,0.12) !important;
+  background: transparent !important;
+}
+
+/* Specific common inline variants (with alpha) */
+[style*="#00E1FF55"], [style*="#00E1FF33"], [style*="#00E1FF22"] {
+  border-color: rgba(47,182,90,0.12) !important;
+  box-shadow: 0 0 10px rgba(47,182,90,0.08) !important;
+}
+
+/* Replace inline cyan badges/shadows */
+[style*="#00E1FF;color"] , [style*="#00E1FF; color"] {
+  color: var(--tn-accent) !important;
+}
+
+/* If any element still forces a neon cyan background, make it dark */
+[style*="#00E1FF;background"], [style*="#00AEEF;background"] {
+  background: transparent !important;
+}

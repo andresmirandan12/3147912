@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TechNova</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados – Futurista Neon -->
+    <style>
+        /* Cuerpo y texto general */
+        body {
+            background: #0F0F0F;
+            color: #D9EFFF;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Navbar futurista neon */
+        .navbar-dark {
+            background: #161b22 !important;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+            .navbar-dark .navbar-brand,
+            .navbar-dark .nav-link {
+                color: #00E1FF !important;
+                font-weight: 600;
+                text-shadow: 0 0 6px #00E1FF;
+            }
+
+                .navbar-dark .nav-link:hover {
+                    color: #00B8FF !important;
+                    text-shadow: 0 0 8px #00E1FF;
+                }
+
+        /* Links generales */
+        a {
+            color: #00E1FF;
+            text-shadow: 0 0 4px #00E1FF;
+        }
+
+            a:hover {
+                color: #00B8FF;
+                text-shadow: 0 0 8px #00E1FF;
+            }
+
+        /* Footer futurista */
+        footer {
+            background: #161b22;
+            color: #8b949e;
+            border-top: 1px solid #1A1A1A;
+            text-shadow: 0 0 4px #00E1FF;
+        }
+
+        /* Contenedores y cards */
+        .container, .card, .shadow {
+            color: #D9EFFF;
+        }
+
+        /* Botones neon globales */
+        .btn-neon {
+            background: #00E1FF;
+            color: #121212;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #00E1FF;
+            transition: 0.3s;
+        }
+
+            .btn-neon:hover {
+                background: #00B8FF;
+                box-shadow: 0 0 15px #00E1FF;
+            }
+
+        /* Tablas futuristas */
+        .table-futurista {
+            background: #181818;
+            color: #D9EFFF;
+            border-radius: 10px;
+        }
+
+            .table-futurista thead {
+                background: #00E1FF;
+                color: #121212;
+                text-shadow: 0 0 4px #00E1FF;
+            }
+
+            .table-futurista tbody tr {
+                border-bottom: 1px solid #00E1FF33;
+            }
+
+        /* Inputs y selects */
+        .form-control, .form-select {
+            background: #181818;
+            color: #D9EFFF;
+            border: 1px solid #00E1FF55;
+            border-radius: 10px;
+        }
+
+        .form-label {
+            color: #00E1FF;
+        }
+    </style>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TechNova.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark shadow-sm mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-cpu"></i> TechNova
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacidad</a>
+                        </li>
+
+                        @if (User.IsInRole("Administrador"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Productoes" asp-action="Index">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Ventas" asp-action="Index">Ventas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="DetalleVentas" asp-action="Index">Detalle Ventas</a>
+                            </li>
+                        }
+                    </ul>
+
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container pb-3">
+        @RenderBody()
+    </div>
+
+    <footer class="footer py-3">
+        <div class="container text-center">
+            &copy; 2025 - TechNova |
+            <a asp-controller="Home" asp-action="Privacy">Privacidad</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

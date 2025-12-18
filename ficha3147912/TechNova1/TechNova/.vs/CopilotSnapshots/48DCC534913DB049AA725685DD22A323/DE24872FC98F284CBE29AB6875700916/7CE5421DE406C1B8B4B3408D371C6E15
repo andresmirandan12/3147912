@@ -1,0 +1,138 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+:root {
+  /* Paleta verde oscuro */
+  --tn-bg: #0b2b18; /* fondo principal muy oscuro */
+  --tn-surface: #0f3a23; /* superficies (navbar, header) */
+  --tn-primary: #1f7a45; /* color principal */
+  --tn-primary-contrast: #eaf7ef; /* texto claro sobre primary */
+  --tn-accent: #2fb65a; /* acento para links y hover */
+  --tn-muted: #9dbba9; /* textos secundarios */
+  --tn-border: #244c36; /* bordes */
+  --tn-danger: #a33a3a;
+  --tn-focus-shadow: 0 0 0 0.1rem rgba(47,182,90,0.25), 0 0 0 0.25rem rgba(31,122,69,0.12);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: var(--tn-bg);
+  color: var(--tn-primary-contrast);
+}
+
+/* Enlaces y navegación */
+a, .nav-link {
+  color: var(--tn-accent);
+}
+a:hover, .nav-link:hover {
+  color: #86e8a0;
+  text-decoration: underline;
+}
+
+/* Navbar y encabezados */
+.navbar, .bg-light {
+  background-color: var(--tn-surface) !important;
+  border-bottom: 1px solid var(--tn-border);
+}
+.navbar .nav-link, .navbar-brand, .bg-light * {
+  color: var(--tn-primary-contrast) !important;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: var(--tn-primary);
+  border-color: var(--tn-border);
+  color: var(--tn-primary-contrast);
+}
+.btn-primary:hover {
+  background-color: var(--tn-accent);
+  border-color: darken(var(--tn-accent), 5%);
+}
+.btn-outline-primary {
+  color: var(--tn-primary);
+  border-color: var(--tn-primary);
+}
+.btn-outline-primary:hover {
+  background-color: rgba(47,182,90,0.08);
+}
+
+/* Inputs y foco accesible */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: var(--tn-focus-shadow);
+  border-color: var(--tn-primary);
+}
+
+.form-control, .form-select, textarea {
+  background-color: #fff;
+  color: #0a0a0a;
+  border: 1px solid var(--tn-border);
+}
+
+.form-control::placeholder {
+  color: var(--tn-muted);
+}
+
+/* Tarjetas y superficies */
+.card {
+  background-color: #0f3a23;
+  color: var(--tn-primary-contrast);
+  border: 1px solid var(--tn-border);
+}
+
+/* Tablas */
+.table thead {
+  background-color: var(--tn-surface);
+  color: var(--tn-primary-contrast);
+}
+.table tbody tr {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+/* Footer fijo en la parte baja */
+footer {
+  background-color: var(--tn-surface);
+  color: var(--tn-primary-contrast);
+  border-top: 1px solid var(--tn-border);
+}
+
+/* Validación */
+.text-danger {
+  color: var(--tn-danger) !important;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--tn-muted);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+/* Ajustes pequeños para contraste en elementos claros */
+.bg-white, .table, .container, .card-body {
+  background-color: #082715;
+}

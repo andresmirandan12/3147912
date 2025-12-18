@@ -1,0 +1,75 @@
+﻿@model TechNova.Models.Producto
+
+@{
+    ViewData["Title"] = "Crear Producto";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center fw-bold mb-4"
+        style="color:#00E1FF;text-shadow:0 0 12px #00E1FF;">
+        ➕ Registrar Producto
+    </h1>
+
+    <div class="col-md-6 mx-auto p-4 rounded"
+         style="background:#0F0F0F;color:#D9EFFF;
+                border:1px solid #1A1A1A;
+                box-shadow:0 0 18px #00E1FF55;">
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger small mb-2"></div>
+
+            <div class="mb-3">
+                <label asp-for="Nombre" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Nombre" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;
+                              color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Nombre" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Descripcion" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Descripcion" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;
+                              color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Descripcion" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Precio" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Precio" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;
+                              color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Precio" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Stock" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Stock" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;
+                              color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Stock" class="text-danger small"></span>
+            </div>
+
+            <button type="submit"
+                    class="btn w-100 fw-bold text-dark"
+                    style="background:#00E1FF;border:none;border-radius:10px;
+                           box-shadow:0 0 10px #00E1FF;">
+                Guardar Producto
+            </button>
+        </form>
+    </div>
+
+    <div class="text-center mt-3">
+        <a asp-action="Index" class="text-decoration-none"
+           style="color:#00E1FF;text-shadow:0 0 6px #00E1FF;">
+            ⬅ Volver
+        </a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

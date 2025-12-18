@@ -1,0 +1,67 @@
+﻿@model TechNova.Models.Cliente
+
+@{
+    ViewData["Title"] = "Crear Cliente";
+}
+
+<div class="container p-4" style="max-width:650px;color:#D9EFFF;">
+    <h2 class="text-center fw-bold mb-4" style="text-shadow:0 0 12px #00E1FF;color:#00E1FF;">
+        Registrar Nuevo Cliente
+    </h2>
+
+    <div class="p-4 rounded"
+         style="background:#0F0F0F;border:1px solid #1A1A1A;box-shadow:0 0 18px #00E1FF55;">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="Nombre" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Nombre" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Email" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Telefono" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Telefono" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Telefono" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="Direccion" class="form-label" style="color:#00E1FF;"></label>
+                <input asp-for="Direccion" class="form-control"
+                       style="background:#181818;border:1px solid #00E1FF55;color:#D9EFFF;border-radius:10px;" />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+
+            <button type="submit"
+                    class="btn w-100"
+                    style="background:#00E1FF;color:#0A0A0A;font-weight:bold;border-radius:10px;">
+                Guardar Cliente
+            </button>
+        </form>
+    </div>
+
+    <div class="text-center mt-3">
+        <a asp-action="Index"
+           class="text-decoration-none"
+           style="color:#00E1FF;text-shadow:0 0 6px #00E1FF;">
+            ⬅ Volver
+        </a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,88 @@
+﻿@model TechNova.Models.Venta
+@{
+    ViewData["Title"] = "Eliminar Venta";
+}
+
+<div class="container mt-5 col-10 p-4 rounded"
+     style="background:#0F0F0F;color:var(--tn-primary-contrast);
+            border:1px solid #1A1A1A;box-shadow:0 0 18px rgba(47,182,90,0.12);">
+
+    <h1 class="fw-bold mb-3"
+        style="color:#FF4C4C;text-shadow:none;">
+        Eliminar Venta
+    </h1>
+    <hr style="border-color:#00E1FF55;" />
+
+    <div class="alert bg-[#1A1A1A] border border-[#FF4C4C] text-[#FF4C4C] fw-bold p-3 mb-4"
+         style="box-shadow:0 0 6px rgba(255,76,76,0.18);">
+        <h5 class="mb-1">¿Está seguro que desea eliminar esta venta?</h5>
+        <p class="mb-0">Esta acción es permanente y eliminará todos los detalles asociados.</p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Información Venta -->
+        <div class="col-md-6">
+            <div class="p-3 rounded"
+                 style="background:#181818;border:1px solid rgba(47,182,90,0.12);box-shadow:0 0 8px rgba(47,182,90,0.08);">
+                <h5 class="mb-3 fw-bold" style="color:var(--tn-accent);text-shadow:0 0 8px rgba(47,182,90,0.12);">
+                    Información de la Venta
+                </h5>
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 fw-semibold">ID Venta:</dt>
+                    <dd class="col-sm-8"><strong>#@Model.VentaId</strong></dd>
+
+                    <dt class="col-sm-4 fw-semibold">Fecha:</dt>
+                    <dd class="col-sm-8">@Model.FechaVenta.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                    <dt class="col-sm-4 fw-semibold">Cliente:</dt>
+                    <dd class="col-sm-8">@Model.Cliente.Nombre</dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- Productos Vendidos -->
+        <div class="col-md-6">
+            <div class="p-3 rounded"
+                 style="background:#181818;border:1px solid rgba(47,182,90,0.12);box-shadow:0 0 8px rgba(47,182,90,0.08);">
+                <h5 class="mb-3 fw-bold" style="color:var(--tn-accent);text-shadow:0 0 8px rgba(47,182,90,0.12);">
+                    Productos Vendidos
+                </h5>
+                <ul class="list-group mb-3"
+                    style="background:#181818;">
+                    @foreach (var detalle in Model.DetalleVenta)
+                    {
+                        <li class="list-group-item d-flex justify-content-between rounded mb-2"
+                            style="background:#1C1C1C;color:var(--tn-primary-contrast);border:1px solid rgba(47,182,90,0.12);box-shadow:0 0 6px rgba(47,182,90,0.06);">
+                            <span>@detalle.Producto.Nombre (x@detalle.Cantidad)</span>
+                            <strong>@((detalle.Cantidad * detalle.PrecioUnitario).ToString("C"))</strong>
+                        </li>
+                    }
+                </ul>
+                <div class="text-end">
+                    <h4 style="color:#00E676;text-shadow:none;">
+                        Total: <span>@ViewBag.Total.ToString("C")</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulario de Eliminación -->
+    <form asp-action="Delete" class="mt-4 d-flex gap-3 justify-content-end"
+          onsubmit="return confirm('⚠️ ¿Está seguro de eliminar esta venta de forma permanente?');">
+        <input type="hidden" asp-for="VentaId" />
+
+        <button type="submit"
+                class="btn fw-bold px-4 py-2"
+                style="background:#FF4C4C;color:#121212;border-radius:10px;box-shadow:0 0 12px #FF4C4C;">
+            <i class="bi bi-trash"></i> Confirmar Eliminación
+        </button>
+
+        <a asp-action="Index"
+           class="btn fw-bold px-4 py-2"
+           style="background:#121212;color:#D9EFFF;border:1px solid #00E1FF55;border-radius:10px;box-shadow:0 0 8px #00E1FF55;">
+            <i class="bi bi-arrow-left"></i> Cancelar
+        </a>
+    </form>
+</div>

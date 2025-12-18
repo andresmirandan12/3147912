@@ -1,0 +1,205 @@
+﻿@model TechNova.Models.Venta
+@{
+    ViewData["Title"] = "Nueva Venta";
+}
+
+<div class="container mt-5 col-8 p-4 rounded"
+     style="background:#0F0F0F;color:var(--tn-primary-contrast);
+            border:1px solid #1A1A1A;box-shadow:0 0 18px rgba(47,182,90,0.12);">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="fw-bold mb-0"
+            style="color:var(--tn-accent);text-shadow:0 0 12px rgba(47,182,90,0.18);">
+            <i class="bi bi-cart4"></i> Registrar Nueva Venta
+        </h1>
+        <a asp-action="Index"
+           class="btn btn-neon fw-bold text-dark">
+            <i class="bi bi-arrow-left"></i> Volver
+        </a>
+    </div>
+
+    <form asp-action="Create" method="post" id="ventaForm">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <!-- CLIENTE -->
+        <div class="mb-4">
+            <label class="form-label fw-bold" style="color:var(--tn-accent);">Cliente *</label>
+            <select name="ClienteId"
+                    class="form-select bg-[#181818] text-[#D9EFFF] border rounded"
+                    required>
+                <option value="">-- Seleccione un cliente --</option>
+                @foreach (var cliente in ViewBag.ClienteId as SelectList)
+                {
+                    <option value="@cliente.Value">@cliente.Text</option>
+                }
+            </select>
+        </div>
+
+        <hr style="border-color:rgba(47,182,90,0.12);" />
+
+        <h5 class="mb-3" style="color:var(--tn-accent);text-shadow:0 0 8px rgba(47,182,90,0.12);">
+            <i class="bi bi-box-seam"></i> Productos
+        </h5>
+
+        <!-- CONTENEDOR DINÁMICO -->
+        <div id="productosContainer">
+            <div class="producto-item rounded p-3 mb-3 position-relative"
+                 style="background:#181818;border:1px solid rgba(47,182,90,0.12);box-shadow:0 0 8px rgba(47,182,90,0.08);">
+
+                <!-- BOTÓN ELIMINAR (ESQUINA SUPERIOR DERECHA) -->
+                <button type="button" class="btn btn-danger eliminar-producto position-absolute"
+                        style="top:10px; right:10px; background:#FF4D4D; color:#FFF;
+                               border-radius:50%; width:30px; height:30px; padding:0;">
+                    ✕
+                </button>
+
+                <div class="row">
+
+                    <!-- SELECT PRODUCTO -->
+                    <div class="col-md-6 mb-2">
+                        <label class="form-label" style="color:var(--tn-accent);">Producto *</label>
+                        <select name="ProductoIds"
+                                class="form-select producto-select bg-[#161b22] text-[#D9EFFF] rounded"
+                                required>
+                            <option value="">-- Seleccione un producto --</option>
+                            @foreach (var producto in ViewBag.Productos as SelectList)
+                            {
+                                <option value="@producto.Value">@producto.Text</option>
+                            }
+                        </select>
+                        <small class="text-info d-block mt-1 stock-info">Stock: --</small>
+                    </div>
+
+                    <!-- CANTIDAD -->
+                    <div class="col-md-3 mb-2">
+                        <label class="form-label" style="color:var(--tn-accent);">Cantidad *</label>
+                        <input type="number" name="Cantidades"
+                               class="form-control cantidad-input bg-[#161b22] text-[#D9EFFF] rounded"
+                               min="1" value="1" />
+                    </div>
+
+                    <!-- SUBTOTAL -->
+                    <div class="col-md-2 mb-2">
+                        <label class="form-label" style="color:var(--tn-accent);">Subtotal</label>
+                        <input type="text" class="form-control subtotal-input bg-[#161b22] text-[#D9EFFF] rounded"
+                               readonly value="$0.00" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <button type="button"
+                class="btn btn-neon fw-bold mb-3"
+                id="btnAgregar">
+            <i class="bi bi-plus-circle"></i> Agregar Producto
+        </button>
+
+        <hr style="border-color:#00E1FF55;" />
+
+        <!-- TOTAL GENERAL -->
+        <h4 class="text-end fw-bold" style="color:var(--tn-accent);text-shadow:0 0 8px rgba(47,182,90,0.18);">
+            Total: <span id="totalGeneral">$0.00</span>
+        </h4>
+
+        <div class="text-end mt-4">
+            <button type="submit"
+                    class="btn btn-neon fw-bold px-4 py-2">
+                <i class="bi bi-check-circle"></i> Registrar Venta
+            </button>
+            <a asp-action="Index"
+               class="btn fw-bold px-4 py-2"
+               style="background:#121212;color:var(--tn-primary-contrast);border:1px solid rgba(47,182,90,0.12);border-radius:10px;box-shadow:0 0 8px rgba(47,182,90,0.12);">
+                <i class="bi bi-x-circle"></i> Cancelar
+            </a>
+        </div>
+    </form>
+</div>
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script>
+        const productosData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.ProductosData));
+
+        function actualizarItem(item) {
+            const select = item.querySelector(".producto-select");
+            const cantidad = item.querySelector(".cantidad-input");
+            const subtotalInput = item.querySelector(".subtotal-input");
+            const stockLabel = item.querySelector(".stock-info");
+
+            const producto = productosData.find(x => x.ProductoId == select.value);
+
+            if (!producto) {
+                stockLabel.textContent = "Stock: --";
+                subtotalInput.value = "$0.00";
+                actualizarTotal();
+                return;
+            }
+
+            stockLabel.textContent = "Stock: " + producto.Stock;
+
+            if (cantidad.value > producto.Stock) {
+                alert(`⚠️ No hay suficiente stock. Disponible: ${producto.Stock}`);
+                cantidad.value = producto.Stock;
+            }
+
+            const subtotal = (cantidad.value || 0) * producto.Precio;
+            subtotalInput.value = subtotal.toLocaleString("es-CO", { style: "currency", currency: "COP" });
+
+            actualizarTotal();
+        }
+
+        function actualizarTotal() {
+            let total = 0;
+            document.querySelectorAll(".producto-item").forEach(item => {
+                const select = item.querySelector(".producto-select");
+                const cantidad = item.querySelector(".cantidad-input");
+
+                const producto = productosData.find(x => x.ProductoId == select.value);
+
+                if (producto) {
+                    total += (cantidad.value || 0) * producto.Precio;
+                }
+            });
+
+            document.getElementById("totalGeneral").textContent = total.toLocaleString("es-CO", { style: "currency", currency: "COP" });
+        }
+
+        function enlazarEventos(item) {
+            const select = item.querySelector(".producto-select");
+            const cantidad = item.querySelector(".cantidad-input");
+            const btnEliminar = item.querySelector(".eliminar-producto");
+
+            select.addEventListener("change", () => actualizarItem(item));
+            cantidad.addEventListener("input", () => actualizarItem(item));
+            cantidad.addEventListener("blur", () => {
+                if (cantidad.value < 1) cantidad.value = 1;
+                actualizarItem(item);
+            });
+
+            if (btnEliminar) {
+                btnEliminar.addEventListener("click", () => {
+                    item.remove();
+                    actualizarTotal();
+                });
+            }
+        }
+
+        document.getElementById("btnAgregar").addEventListener("click", () => {
+            const contenedor = document.getElementById("productosContainer");
+            const base = document.querySelector(".producto-item");
+
+            const nuevo = base.cloneNode(true);
+            nuevo.querySelector(".producto-select").value = "";
+            nuevo.querySelector(".stock-info").textContent = "Stock: --";
+            nuevo.querySelector(".cantidad-input").value = 1;
+            nuevo.querySelector(".subtotal-input").value = "$0.00";
+
+            contenedor.appendChild(nuevo);
+            enlazarEventos(nuevo);
+        });
+
+        document.querySelectorAll(".producto-item").forEach(i => enlazarEventos(i));
+    </script>
+}

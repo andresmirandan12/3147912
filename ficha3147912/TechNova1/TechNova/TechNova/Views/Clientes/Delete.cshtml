@@ -1,0 +1,50 @@
+﻿@model TechNova.Models.Cliente
+@{
+    ViewData["Title"] = "Eliminar Cliente";
+}
+
+<div class="container" style="max-width:800px;color:#D9EFFF;">
+    <h2 class="fw-bold text-center mb-3"
+        style="color:#FF4C4C;text-shadow:0 0 12px #FF4C4C;">
+        Eliminar Cliente
+    </h2>
+
+    <p class="text-center" style="color:#AAAAAA;">
+        Esta acción no se puede revertir.
+    </p>
+
+    <div class="p-4 rounded"
+         style="background:#0F0F0F;border:1px solid #1A1A1A;
+                box-shadow:0 0 18px #FF4C4C55;">
+        <dl class="row">
+            <dt class="col-sm-4 fw-bold" style="color:#FF4C4C;">Nombre</dt>
+            <dd class="col-sm-8">@Model.Nombre</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#FF4C4C;">Correo</dt>
+            <dd class="col-sm-8">@Model.Email</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#FF4C4C;">Teléfono</dt>
+            <dd class="col-sm-8">@Model.Telefono</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:#FF4C4C;">Dirección</dt>
+            <dd class="col-sm-8">@Model.Direccion</dd>
+        </dl>
+    </div>
+
+    <form asp-action="Delete" class="mt-4 text-center">
+        <input type="hidden" asp-for="ClienteId" />
+
+        <button class="btn text-white px-4"
+                style="background:#FF4C4C;border:none;border-radius:10px;
+                       box-shadow:0 0 10px #FF4C4C;">
+            Confirmar Eliminación
+        </button>
+
+        <a asp-action="Index"
+           class="btn ms-2"
+           style="background:#1A1A1A;color:#D9EFFF;
+                  border:1px solid #444;border-radius:10px;">
+            Cancelar
+        </a>
+    </form>
+</div>

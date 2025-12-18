@@ -1,0 +1,93 @@
+﻿@model IEnumerable<TechNova.Models.Cliente>
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold"
+            style="color:var(--tn-accent);text-shadow:0 0 12px rgba(47,182,90,0.12);">
+            Clientes Registrados
+        </h2>
+
+        <a asp-action="Create"
+           class="btn btn-neon text-dark px-3 fw-bold">
+            <i class="bi bi-person-plus"></i> Nuevo Cliente
+        </a>
+    </div>
+
+    <div class="p-3 rounded mb-4"
+         style="background:#0F0F0F;border:1px solid #1A1A1A;
+                box-shadow:0 0 12px rgba(47,182,90,0.06);">
+        <form asp-action="Index" method="get" class="d-flex gap-2">
+            <input type="text" name="searchString" value="@ViewData["CurrentFilter"]"
+                   class="form-control"
+                   style="background:#181818;border:1px solid rgba(47,182,90,0.08);color:var(--tn-primary-contrast);border-radius:10px;"
+                   placeholder="Buscar cliente..." />
+
+            <button type="submit" class="btn fw-bold text-dark btn-neon">
+                Buscar
+            </button>
+        </form>
+    </div>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger mt-3">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="table-responsive rounded shadow-sm"
+         style="background:#0F0F0F;border:1px solid #1A1A1A;
+                box-shadow:0 0 14px rgba(47,182,90,0.06);">
+        <table class="table table-hover align-middle mb-0"
+               style="background:#0F0F0F;color:#D9EFFF;">
+            <thead style="background:var(--tn-surface);color:var(--tn-primary-contrast);">
+                <tr>
+                    <th>ClienteID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Teléfono</th>
+                    <th>Dirección</th>
+                    <th class="text-center">Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr style="transition:0.2s;">
+                        <td>@item.ClienteId</td>
+                        <td>@item.Nombre</td>
+                        <td>@item.Email</td>
+                        <td>@item.Telefono</td>
+                        <td>@item.Direccion</td>
+
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.ClienteId"
+                               class="btn btn-sm text-dark fw-bold btn-neon">
+                                Editar
+                            </a>
+
+                            <a asp-action="Details" asp-route-id="@item.ClienteId"
+                               class="btn btn-sm"
+                               style="background:#181818;color:var(--tn-primary-contrast);border:1px solid rgba(47,182,90,0.12);border-radius:8px;">
+                                Detalles
+                            </a>
+
+                            <a asp-action="Delete" asp-route-id="@item.ClienteId"
+                               class="btn btn-sm text-white fw-bold"
+                               style="background:#FF4C4C;border:none;border-radius:8px;
+                                          box-shadow:0 0 8px #FF4C4C;">
+                                Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

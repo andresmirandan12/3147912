@@ -1,0 +1,48 @@
+﻿@model TechNova.Models.Producto
+
+@{
+    ViewData["Title"] = "Eliminar Producto";
+}
+
+<div class="container col-7 mt-5 p-4 rounded"
+     style="background:#0F0F0F;color:var(--tn-primary-contrast);border:1px solid #1A1A1A;box-shadow:0 0 18px rgba(47,182,90,0.12);">
+
+    <h1 class="text-center fw-bold mb-3" style="color:#FF4C4C;">Eliminar Producto</h1>
+
+    <div class="p-3 mb-4 rounded" style="background:#181818;border:1px solid rgba(255,76,76,0.12);box-shadow:inset 0 0 8px rgba(255,76,76,0.06);font-weight:bold;color:#FF4C4C;">
+        ⚠ Esta acción NO se puede deshacer.
+    </div>
+
+    <div class="p-3 rounded mb-4" style="background:#181818;border:1px solid rgba(47,182,90,0.12);box-shadow:0 0 12px rgba(47,182,90,0.06);">
+        <dl class="row small">
+            <dt class="col-sm-4 fw-bold" style="color:var(--tn-accent);">Nombre:</dt>
+            <dd class="col-sm-8">@Model.Nombre</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:var(--tn-accent);">Descripción:</dt>
+            <dd class="col-sm-8">@Model.Descripcion</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:var(--tn-accent);">Precio:</dt>
+            <dd class="col-sm-8">@Model.Precio.ToString("C")</dd>
+
+            <dt class="col-sm-4 fw-bold" style="color:var(--tn-accent);">Stock:</dt>
+            <dd class="col-sm-8">@Model.Stock</dd>
+        </dl>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ProductoId" />
+
+        <button type="submit" class="btn w-100 fw-bold text-dark mb-3"
+                style="background:#FF4C4C;border:none;border-radius:10px;
+                       box-shadow:0 0 10px #FF4C4C;">
+            Eliminar Definitivamente
+        </button>
+
+        <a asp-action="Index"
+           class="btn w-100 fw-bold text-dark"
+           style="background:#00E1FF;border:none;border-radius:10px;
+                  box-shadow:0 0 10px #00E1FF;">
+            Cancelar
+        </a>
+    </form>
+</div>

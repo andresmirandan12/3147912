@@ -1,0 +1,633 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\productoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\productoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\detalleventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\detalleventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\productoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\productoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\controllers\\detalleventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\detalleventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\ventas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\ventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\ventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\productoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\productoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\productoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\productoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\productoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\productoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\detalleventas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\detalleventas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\detalleventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\detalleventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\detalleventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\detalleventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\detalleventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\detalleventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|c:\\users\\lenovo\\source\\repos\\technova\\technova\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4418A05-A542-80B4-4D31-5D01D0ACAB6F}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "TechNova\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Models\\Cliente.cs",
+              "RelativeToolTip": "TechNova\\Models\\Cliente.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T20:52:24.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAApwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:11:47.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Productoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Create.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Productoes\\Create.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAApwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:55:52.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T20:25:34.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T20:25:08.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\DetalleVentas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Index.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\DetalleVentas\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAApwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:28:01.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Index.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Ventas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:15:22.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Productoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Index.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Productoes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T20:09:31.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Program.cs",
+              "RelativeDocumentMoniker": "TechNova\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Program.cs",
+              "RelativeToolTip": "TechNova\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T22:17:26.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "TechNova\\Controllers\\ProductoesController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "TechNova\\Controllers\\ProductoesController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAwwJ0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T20:26:01.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Create.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Ventas\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwHMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:18:32.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TechNova\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TechNova\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-12T01:56:03.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "TechNova\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-12T02:14:54.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "TechNova\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "TechNova\\Controllers\\VentasController.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAAOcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:13:41.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DetalleVentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\DetalleVentasController.cs",
+              "RelativeDocumentMoniker": "TechNova\\Controllers\\DetalleVentasController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\DetalleVentasController.cs",
+              "RelativeToolTip": "TechNova\\Controllers\\DetalleVentasController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T20:56:04.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "TechNova\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "TechNova\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T21:09:57.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T20:34:25.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\appsettings.json",
+              "RelativeDocumentMoniker": "TechNova\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\appsettings.json",
+              "RelativeToolTip": "TechNova\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T19:36:38.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Details.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Details.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Ventas\\Details.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAIBJwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:19:40.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwEAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:10:20.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:10:12.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Delete.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Ventas\\Delete.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T18:03:43.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T20:39:27.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T20:34:20.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T20:39:29.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Ventas\\Edit.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Ventas\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwCgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T18:04:22.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Productoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Edit.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Productoes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:56:16.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Productoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Details.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Productoes\\Details.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAIBJwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:56:08.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Productoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Productoes\\Delete.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Productoes\\Delete.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:56:01.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T17:57:00.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Edit.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Clientes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:46:43.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\DetalleVentas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Edit.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\DetalleVentas\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:51:37.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Details.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\DetalleVentas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Details.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\DetalleVentas\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T21:28:00.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\DetalleVentas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Delete.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\DetalleVentas\\Delete.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:50:42.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\DetalleVentas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\DetalleVentas\\Create.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\DetalleVentas\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:48:58.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Details.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Clientes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:46:25.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\TechNova\\TechNova\\Views\\Clientes\\Delete.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Clientes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T19:45:59.739Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

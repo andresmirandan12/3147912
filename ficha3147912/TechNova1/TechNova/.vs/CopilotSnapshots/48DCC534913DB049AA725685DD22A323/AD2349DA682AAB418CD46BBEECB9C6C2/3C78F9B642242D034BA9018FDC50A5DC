@@ -1,0 +1,45 @@
+﻿@model TechNova.Models.DetalleVenta
+
+@{
+    ViewData["Title"] = "Detalle de Venta";
+}
+
+<div class="container col-7 mt-5 p-4 rounded shadow-sm"
+     style="background:#1A1A1A;color:#EAEAEA;box-shadow:0 0 15px #00AEEF55; border:1px solid #0D4D66;">
+
+    <h2 class="fw-bold text-center mb-4"
+        style="color:#00AEEF; text-shadow:0 0 8px #00AEEF;">
+        🔹 Información del Detalle 🔹
+    </h2>
+
+    <div class="p-4 rounded"
+         style="background:#141414;border:1px solid #00AEEF55;box-shadow:inset 0 0 10px #00AEEF33;">
+        <dl class="row">
+
+            <dt class="col-sm-4 fw-semibold" style="color:#00AEEF;">Cantidad</dt>
+            <dd class="col-sm-8">@Model.Cantidad</dd>
+
+            <dt class="col-sm-4 fw-semibold" style="color:#00AEEF;">Precio Unitario</dt>
+            <dd class="col-sm-8">@Model.PrecioUnitario.ToString("C")</dd>
+
+            <dt class="col-sm-4 fw-semibold" style="color:#00AEEF;">Producto</dt>
+            <dd class="col-sm-8">@Model.Producto.Nombre</dd>
+
+            <dt class="col-sm-4 fw-semibold" style="color:#00AEEF;">Venta</dt>
+            <dd class="col-sm-8">@Model.VentaId</dd>
+
+        </dl>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Index"
+           class="btn px-4 fw-bold"
+           style="
+                background:#00AEEF;
+                color:#121212;
+                border:none;
+                box-shadow:0 0 10px #00AEEF;">
+            Regresar
+        </a>
+    </div>
+</div>

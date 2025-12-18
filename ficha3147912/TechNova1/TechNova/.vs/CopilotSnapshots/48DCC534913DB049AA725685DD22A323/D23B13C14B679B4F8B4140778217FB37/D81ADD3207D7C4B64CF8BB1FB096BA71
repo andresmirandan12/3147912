@@ -1,0 +1,100 @@
+﻿@model TechNova.Models.Venta
+@{
+    ViewData["Title"] = "Detalle de Venta";
+}
+
+<div class="container mt-5 col-10 p-4 rounded"
+     style="background:#0F0F0F;color:#D9EFFF;
+            border:1px solid #1A1A1A;box-shadow:0 0 18px #00E1FF55;">
+
+    <div class="row mb-3">
+        <div class="col-md-8">
+            <h1 class="fw-bold"
+                style="color:#00E1FF;text-shadow:0 0 12px #00E1FF;">
+                <i class="bi bi-receipt"></i> Detalle de Venta #@Model.VentaId
+            </h1>
+        </div>
+        <div class="col-md-4 text-end">
+            <a asp-action="Index"
+               class="btn fw-bold px-4 py-2"
+               style="background:#121212;color:#00E1FF;border:1px solid #00E1FF55;border-radius:10px;
+                      box-shadow:0 0 10px #00E1FF55;">
+                <i class="bi bi-arrow-left"></i> Volver
+            </a>
+        </div>
+    </div>
+
+    <hr style="border-color:#00E1FF55;" />
+
+    <div class="row g-4 mb-4">
+
+        <!-- Información -->
+        <div class="col-md-6">
+            <div class="p-3 rounded"
+                 style="background:#181818;border:1px solid #00E1FF55;box-shadow:0 0 8px #00E1FF55;">
+                <h5 class="fw-bold mb-3" style="color:#00E1FF;text-shadow:0 0 8px #00E1FF;">
+                    <i class="bi bi-info-circle"></i> Información General
+                </h5>
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 fw-semibold">ID Venta:</dt>
+                    <dd class="col-sm-8"><strong>#@Model.VentaId</strong></dd>
+
+                    <dt class="col-sm-4 fw-semibold">Fecha:</dt>
+                    <dd class="col-sm-8">@Model.FechaVenta.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                    <dt class="col-sm-4 fw-semibold">Cliente:</dt>
+                    <dd class="col-sm-8">@Model.Cliente.Nombre</dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- Total -->
+        <div class="col-md-6">
+            <div class="p-3 rounded text-center"
+                 style="background:#181818;border:1px solid #00E1FF55;box-shadow:0 0 8px #00E1FF55;">
+                <h5 class="fw-bold mb-3" style="color:#00E1FF;text-shadow:0 0 8px #00E1FF;">
+                    <i class="bi bi-cash-stack"></i> Resumen
+                </h5>
+                <h2 style="color:#00E676;text-shadow:0 0 10px #00E676;">
+                    @ViewBag.Total.ToString("C")
+                </h2>
+                <p>Total General</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Productos -->
+    <div class="p-3 rounded mb-4"
+         style="background:#181818;border:1px solid #00E1FF55;box-shadow:0 0 8px #00E1FF55;">
+        <h5 class="fw-bold mb-3" style="color:#00E1FF;text-shadow:0 0 8px #00E1FF;">
+            <i class="bi bi-box-seam"></i> Productos Vendidos
+        </h5>
+
+        <table class="table mb-0" style="color:#D9EFFF;">
+            <thead style="background:#0F0F0F;color:#00E1FF;text-shadow:0 0 6px #00E1FF;">
+                <tr>
+                    <th>Producto</th>
+                    <th class="text-center">Cantidad</th>
+                    <th class="text-end">Precio</th>
+                    <th class="text-end">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detalle in Model.DetalleVenta)
+                {
+                    <tr style="background:#1C1C1C;border-bottom:1px solid #00E1FF33;">
+                        <td>@detalle.Producto.Nombre</td>
+                        <td class="text-center">
+                            <span class="badge"
+                                  style="background:#00E1FF;color:#0F0F0F;box-shadow:0 0 6px #00E1FF;">
+                                @detalle.Cantidad
+                            </span>
+                        </td>
+                        <td class="text-end">@detalle.PrecioUnitario.ToString("C")</td>
+                        <td class="text-end">@((detalle.Cantidad * detalle.PrecioUnitario).ToString("C"))</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

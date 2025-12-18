@@ -1,0 +1,45 @@
+﻿@model TechNova.Models.Cliente
+
+@{
+    ViewData["Title"] = "Detalles Cliente";
+}
+
+<div class="container p-4" style="max-width:750px;color:#D9EFFF;">
+    <h2 class="fw-bold text-center mb-4"
+        style="color:#00E1FF;text-shadow:0 0 12px #00E1FF;">
+        Detalles del Cliente
+    </h2>
+
+    <div class="p-4 rounded"
+         style="background:#0F0F0F;border:1px solid #1A1A1A;
+                box-shadow:0 0 18px #00E1FF55;">
+        <dl class="row">
+            <dt class="col-sm-3 fw-semibold" style="color:#00E1FF;">Nombre</dt>
+            <dd class="col-sm-9">@Model.Nombre</dd>
+
+            <dt class="col-sm-3 fw-semibold" style="color:#00E1FF;">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3 fw-semibold" style="color:#00E1FF;">Teléfono</dt>
+            <dd class="col-sm-9">@Model.Telefono</dd>
+
+            <dt class="col-sm-3 fw-semibold" style="color:#00E1FF;">Dirección</dt>
+            <dd class="col-sm-9">@Model.Direccion</dd>
+        </dl>
+    </div>
+
+    <div class="text-center mt-3">
+        <a asp-action="Edit" asp-route-id="@Model.ClienteId"
+           class="btn px-4"
+           style="background:#00E1FF;color:#0A0A0A;font-weight:bold;
+                  border:none;border-radius:10px;box-shadow:0 0 10px #00E1FF;">
+            Editar
+        </a>
+
+        <a asp-action="Index"
+           class="ms-3 text-decoration-none"
+           style="color:#00E1FF;text-shadow:0 0 6px #00E1FF;">
+            Volver
+        </a>
+    </div>
+</div>

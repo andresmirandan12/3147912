@@ -1,0 +1,91 @@
+﻿@model IEnumerable<TechNova.Models.Producto>
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between mb-3">
+        <h1 class="fw-bold" style="color:var(--tn-accent);text-shadow:0 0 10px rgba(47,182,90,0.18);">
+            <i class="bi bi-box-seam"></i> Inventario de Productos
+        </h1>
+        <a asp-action="Create" class="btn btn-neon fw-bold">
+            <i class="bi bi-plus-circle"></i> Nuevo
+        </a>
+    </div>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="p-3 rounded shadow mb-4"
+         style="background:#0F0F0F;border:1px solid #1A1A1A;
+                box-shadow:0 0 18px rgba(47,182,90,0.18);">
+
+        <table class="table table-hover mb-0 align-middle"
+               style="background:#181818;color:var(--tn-primary-contrast);border-radius:10px;">
+            <thead style="background:var(--tn-surface);color:var(--tn-primary-contrast);text-shadow:0 0 4px rgba(47,182,90,0.08);">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Inventario</th>
+                    <th class="text-center">Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr style="border-bottom:1px solid rgba(47,182,90,0.2);">
+                        <td>@item.Nombre</td>
+                        <td>@item.Descripcion</td>
+                        <td>@item.Precio.ToString("C")</td>
+                        <td>
+                            @if (item.Stock == 0)
+                            {
+                                <span class="badge"
+                                      style="background:#FF4C4C;color:#121212;">0</span>
+                            }
+                            else if (item.Stock < 10)
+                            {
+                                <span class="badge"
+                                      style="background:#FFC107;color:#121212;">@item.Stock</span>
+                            }
+                            else
+                            {
+                                <span class="badge"
+                                      style="background:var(--tn-accent);color:#121212;">@item.Stock</span>
+                            }
+                        </td>
+
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.ProductoId"
+                               class="btn btn-sm text-dark fw-bold btn-neon">
+                                Editar
+                            </a>
+
+                            <a asp-action="Details" asp-route-id="@item.ProductoId"
+                               class="btn btn-sm text-dark fw-bold"
+                               style="background:#181818;border:1px solid rgba(47,182,90,0.18);border-radius:6px;box-shadow:0 0 4px rgba(47,182,90,0.12);">
+                                Detalles
+                            </a>
+
+                            <a asp-action="Delete" asp-route-id="@item.ProductoId"
+                               class="btn btn-sm text-dark fw-bold"
+                               style="background:#FF4C4C;border:none;border-radius:6px;
+                                          box-shadow:0 0 6px #FF4C4C;">
+                                Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>
