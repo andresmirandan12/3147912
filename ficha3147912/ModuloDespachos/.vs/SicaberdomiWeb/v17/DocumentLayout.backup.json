@@ -1,0 +1,641 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\migrations\\20251216142727_fixcomentariosclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\migrations\\20251216142727_fixcomentariosclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\controllers\\comentarioclientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\controllers\\comentarioclientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\pedidos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\pedidos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\pedidos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\pedidos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\models\\comentariocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\models\\comentariocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\comentarioclientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\comentarioclientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\shared\\_loginpartialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\shared\\_loginpartialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\models\\estadoenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\models\\estadoenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\sicaberdomiweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\sicaberdomiweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\admin\\deletedomiciliario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\admin\\deletedomiciliario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\admin\\editdomiciliario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\admin\\editdomiciliario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\views\\admin\\domiciliarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\views\\admin\\domiciliarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\migrations\\20251215032030_modelosinicialesyroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\migrations\\20251215032030_modelosinicialesyroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\migrations\\20251215064721_addclienteidtopedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\migrations\\20251215064721_addclienteidtopedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\migrations\\20251215055001_makenombrecompletooptional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\migrations\\20251215055001_makenombrecompletooptional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\migrations\\20251215203834_finalizepedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\migrations\\20251215203834_finalizepedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\migrations\\20251216043433_fixuserrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\migrations\\20251216043433_fixuserrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|c:\\users\\usuario\\source\\repos\\ficha3147912\\sicaberdomiweb\\sicaberdomiweb\\data\\migrations\\20251216135021_comentariocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB25BF6-3FF8-4824-A19D-3813AC7E885B}|SicaberdomiWeb\\SicaberdomiWeb.csproj|solutionrelative:sicaberdomiweb\\data\\migrations\\20251216135021_comentariocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 73,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251216142727_FixComentariosClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251216142727_FixComentariosClientes.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\Migrations\\20251216142727_FixComentariosClientes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251216142727_FixComentariosClientes.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\Migrations\\20251216142727_FixComentariosClientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T14:27:28.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAUwCcBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:58:43.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComentarioClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\ComentarioClientesController.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Controllers\\ComentarioClientesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\ComentarioClientesController.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Controllers\\ComentarioClientesController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAKQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T13:53:32.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:15:23.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:03:43.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAArwG0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T03:41:14.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Create.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Pedidos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Create.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Pedidos\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T18:07:09.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Details.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Pedidos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Details.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Pedidos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T20:32:12.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Index.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Pedidos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Index.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Pedidos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T20:34:41.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Pedidos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Pedidos\\Edit.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Pedidos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T06:03:12.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T14:08:49.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\ComentarioClientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\ComentarioClientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\ComentarioClientes\\Index.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\ComentarioClientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T13:57:41.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComentarioCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\ComentarioCliente.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Models\\ComentarioCliente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\ComentarioCliente.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Models\\ComentarioCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:14:47.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20251216135021_ComentarioCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251216135021_ComentarioCliente.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\Migrations\\20251216135021_ComentarioCliente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251216135021_ComentarioCliente.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\Migrations\\20251216135021_ComentarioCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T13:50:23.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\Pedido.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Models\\Pedido.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:14:14.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T05:19:47.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T05:19:38.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAk7bYmsNQjwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T04:28:46.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LoginPartialSidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_LoginPartialSidebar.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Shared\\_LoginPartialSidebar.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Shared\\_LoginPartialSidebar.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Shared\\_LoginPartialSidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T03:38:09.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:13:41.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20251216043433_FixUserRelationships.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251216043433_FixUserRelationships.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\Migrations\\20251216043433_FixUserRelationships.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251216043433_FixUserRelationships.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\Migrations\\20251216043433_FixUserRelationships.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T04:34:35.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAC4AAAAAXJqxgbTrvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T05:36:09.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EstadoEnvio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\EstadoEnvio.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Models\\EstadoEnvio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\EstadoEnvio.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Models\\EstadoEnvio.cs",
+              "ViewState": "AgIAAAEAAACApaWlpaUFwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T20:26:33.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20251215203834_FinalizePedidoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215203834_FinalizePedidoModel.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\Migrations\\20251215203834_FinalizePedidoModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215203834_FinalizePedidoModel.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\Migrations\\20251215203834_FinalizePedidoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T20:38:37.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\Productos.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Models\\Productos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Models\\Productos.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Models\\Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T20:23:35.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20251215064721_AddClienteIdToPedidoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215064721_AddClienteIdToPedidoModel.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\Migrations\\20251215064721_AddClienteIdToPedidoModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215064721_AddClienteIdToPedidoModel.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\Migrations\\20251215064721_AddClienteIdToPedidoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T06:47:21.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20251215055001_MakeNombreCompletoOptional.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215055001_MakeNombreCompletoOptional.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\Migrations\\20251215055001_MakeNombreCompletoOptional.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215055001_MakeNombreCompletoOptional.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\Migrations\\20251215055001_MakeNombreCompletoOptional.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:50:02.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAkwM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:45:34.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SicaberdomiWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\SicaberdomiWeb.csproj",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\SicaberdomiWeb.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\SicaberdomiWeb.csproj",
+              "RelativeToolTip": "SicaberdomiWeb\\SicaberdomiWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T03:26:28.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T03:37:02.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "SicaberdomiWeb\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-15T03:28:53.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Domiciliarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Admin\\Domiciliarios.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Admin\\Domiciliarios.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Admin\\Domiciliarios.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Admin\\Domiciliarios.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T05:05:19.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditDomiciliario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Admin\\EditDomiciliario.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Admin\\EditDomiciliario.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Admin\\EditDomiciliario.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Admin\\EditDomiciliario.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T05:05:50.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteDomiciliario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Admin\\DeleteDomiciliario.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Views\\Admin\\DeleteDomiciliario.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Views\\Admin\\DeleteDomiciliario.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Views\\Admin\\DeleteDomiciliario.cshtml",
+              "ViewState": "AgIAACAAAADA+B7AQ7QvwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T05:06:18.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SicaberdomiWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T04:29:24.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Program.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Program.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwEsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:11:53.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\appsettings.json",
+              "RelativeToolTip": "SicaberdomiWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T03:15:57.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20251215032030_ModelosInicialesYRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215032030_ModelosInicialesYRoles.cs",
+              "RelativeDocumentMoniker": "SicaberdomiWeb\\Data\\Migrations\\20251215032030_ModelosInicialesYRoles.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ficha3147912\\SicaberdomiWeb\\SicaberdomiWeb\\Data\\Migrations\\20251215032030_ModelosInicialesYRoles.cs",
+              "RelativeToolTip": "SicaberdomiWeb\\Data\\Migrations\\20251215032030_ModelosInicialesYRoles.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:20:32.1Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿@model SicaberdomiWeb.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Editar Domiciliario";
+}
+
+<h2 class="mb-4">@ViewData["Title"]: @Model.NombreCompleto</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="EditDomiciliario">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            @* Campo NombreCompleto *@
+            <div class="mb-3">
+                <label asp-for="NombreCompleto" class="form-label"></label>
+                <input asp-for="NombreCompleto" class="form-control" />
+                <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+            </div>
+
+            @* Campo Email / UserName *@
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            @* Campo Teléfono *@
+            <div class="mb-3">
+                <label asp-for="PhoneNumber" class="form-label">Teléfono</label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+
+            @* Campo EstaDisponible (Booleano) *@
+            <div class="form-check mb-3">
+                <input class="form-check-input" asp-for="EstaDisponible" />
+                <label class="form-check-label" asp-for="EstaDisponible">
+                    @Html.DisplayNameFor(model => model.EstaDisponible)
+                </label>
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <a asp-action="Domiciliarios" class="btn btn-secondary">Cancelar y Volver</a>
+                <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

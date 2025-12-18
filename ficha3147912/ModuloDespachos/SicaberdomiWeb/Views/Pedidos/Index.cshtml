@@ -1,0 +1,64 @@
+﻿@model IEnumerable<SicaberdomiWeb.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Gestión de Pedidos";
+}
+
+<h1 class="text-primary mb-4">📦 Lista de Pedidos</h1>
+
+<p>
+    @if (!User.IsInRole("Domiciliario"))
+    {
+        <a asp-action="Create" class="btn btn-success">
+            + Crear Nuevo Pedido
+        </a>
+    }
+</p>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover border">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.ClienteNombre)</th>
+                <th>@Html.DisplayNameFor(model => model.Producto)</th>
+                <th>@Html.DisplayNameFor(model => model.DireccionEntrega)</th>
+                <th>@Html.DisplayNameFor(model => model.FechaPedido)</th>
+                <th>@Html.DisplayNameFor(model => model.Domiciliario)</th>
+                <th>@Html.DisplayNameFor(model => model.Estado)</th>
+                <th>@Html.DisplayNameFor(model => model.Observaciones)</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.ClienteNombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Producto)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DireccionEntrega)</td>
+                    <td>@item.FechaPedido.ToString("dd/MMM/yyyy HH:mm")</td>
+
+                    @* Muestra Email o "Sin Asignar" *@
+                    <td>
+                        @(item.Domiciliario != null ? item.Domiciliario.Email : "Sin Asignar")
+                    </td>
+
+                    <td>
+                        <span class="badge @(item.Estado == EstadoEnvio.Entregado ? "bg-success" : item.Estado == EstadoEnvio.Cancelado ? "bg-danger" : "bg-warning text-dark")">
+                            @Html.DisplayFor(modelItem => item.Estado)
+                        </span>
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.Observaciones)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info">Detalles</a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

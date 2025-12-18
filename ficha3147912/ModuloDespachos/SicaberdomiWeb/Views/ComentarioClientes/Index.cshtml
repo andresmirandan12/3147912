@@ -1,0 +1,31 @@
+﻿@model IEnumerable<SicaberdomiWeb.Models.ComentarioCliente>
+
+@{
+    ViewData["Title"] = "Comentarios de Clientes";
+}
+
+<h2 class="mb-4">💬 Opiniones de Clientes</h2>
+
+<div class="row">
+    @foreach (var c in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card shadow p-3 h-100">
+                <h5>@c.ClienteNombre</h5>
+
+                <p class="text-warning">
+                    @for (int i = 0; i < c.Calificacion; i++)
+                    {
+                        <span>⭐</span>
+                    }
+                </p>
+
+                <p>@c.TextoComentario</p>
+
+                <small class="text-muted">
+                    @c.FechaComentario.ToShortDateString()
+                </small>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,70 @@
+﻿@model SicaberdomiWeb.Models.Pedido
+@using SicaberdomiWeb.Models
+
+@{
+    ViewData["Title"] = "Detalles del Pedido";
+}
+
+<h1 class="text-info mb-4">🔎 Detalles del Pedido #@Model.Id</h1>
+<h4 class="text-muted">Fecha del Pedido: @Model.FechaPedido.ToString("dd/MM/yyyy HH:mm")</h4>
+<hr />
+
+<div class="card shadow p-4">
+    <dl class="row">
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ClienteNombre)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.ClienteNombre)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Producto)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Producto)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.DireccionEntrega)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.DireccionEntrega)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Domiciliario)
+        </dt>
+        <dd class="col-sm-8">
+            @(Model.Domiciliario != null ? Model.Domiciliario.Email : "Sin Asignar")
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd class="col-sm-8">
+            <span class="badge @(Model.Estado == EstadoEnvio.Entregado ? "bg-success" : Model.Estado == EstadoEnvio.Cancelado ? "bg-danger" : "bg-warning text-dark")">
+                @Html.DisplayFor(model => model.Estado)
+            </span>
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Observaciones)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Observaciones)
+        </dd>
+
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Cliente) (Creador)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Cliente.Email)
+        </dd>
+    </dl>
+</div>
+
+<div class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a> |
+    <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+</div>

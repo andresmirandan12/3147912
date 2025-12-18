@@ -1,0 +1,107 @@
+﻿@model SicaberdomiWeb.Models.Pedido
+@using SicaberdomiWeb.Models
+
+@{
+    ViewData["Title"] = "Crear Pedido";
+}
+
+<h1 class="text-success mb-4">✍️ Crear Nuevo Pedido</h1>
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="card shadow p-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                @* ----------------------------------------------------
+                   CAMPOS REQUERIDOS EN EL MODELO
+                   ---------------------------------------------------- *@
+
+                @* --- CLIENTENOMBRE --- *@
+                <div class="form-group mb-3">
+                    <label asp-for="ClienteNombre" class="form-label font-weight-bold"></label>
+                    <input asp-for="ClienteNombre" class="form-control" />
+                    <span asp-validation-for="ClienteNombre" class="text-danger"></span>
+                </div>
+
+                @* --- PRODUCTO/SERVICIO (DROPDOWN) --- *@
+                <div class="form-group mb-3">
+                    <label asp-for="Producto" class="form-label font-weight-bold"></label>
+                    <select asp-for="Producto" class="form-control" asp-items="Html.GetEnumSelectList<TipoProducto>()">
+                        <option value="">-- Seleccione un Producto --</option>
+                    </select>
+                    <span asp-validation-for="Producto" class="text-danger"></span>
+                </div>
+
+                @* --- DIRECCIONENTREGA --- *@
+                    <div class="form-group mb-3">
+                        <label asp-for="DireccionEntrega" class="form-label font-weight-bold"></label>
+                        <input asp-for="DireccionEntrega" class="form-control" />
+                        <span asp-validation-for="DireccionEntrega" class="text-danger"></span>
+                    </div>
+
+                    @* ----------------------------------------------------
+                   CAMPOS CONDICIONALES Y OCULTOS
+                   ---------------------------------------------------- *@
+
+                    @* --- DOMICILIARIO ASIGNADO (SOLO VISIBLE SI ES ADMIN) --- *@
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="form-group mb-3 alert alert-info">
+                            <label asp-for="DomiciliarioId" class="form-label font-weight-bold">👤 Domiciliario Disponible (Se asignan los emails)</label>
+                            <select asp-for="DomiciliarioId" class="form-control" asp-items="ViewBag.DomiciliarioId">
+                                {{-- **CORRECCIÓN:** Esto asegura que la opción nula sea la primera --}}
+                                <option value="">-- Sin Asignar --</option>
+                            </select>
+                            <span asp-validation-for="DomiciliarioId" class="text-danger"></span>
+                        </div>
+                    }
+                    @* Si no es admin, DomiciliarioId es nulo y se envía como input hidden *@
+                    else
+                    {
+                        <input type="hidden" asp-for="DomiciliarioId" value="" />
+                    }
+
+
+                    @* --- ESTADO ACTUAL --- *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Estado" class="form-label font-weight-bold"></label>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            // El Admin tiene el dropdown completo
+                            <select asp-for="Estado" class="form-control" asp-items="Html.GetEnumSelectList<EstadoEnvio>()"></select>
+                        }
+                        else
+                        {
+                            // El Cliente solo ve el estado inicial como texto y el valor se envía oculto al controlador
+                            <input type="text" class="form-control" readonly value="Pendiente" />
+                            <input type="hidden" asp-for="Estado" value="@EstadoEnvio.Pendiente" />
+                        }
+                        <span asp-validation-for="Estado" class="text-danger"></span>
+                    </div>
+
+                    @* --- OBSERVACIONES --- *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Observaciones" class="form-label font-weight-bold"></label>
+                        <textarea asp-for="Observaciones" class="form-control" rows="3"></textarea>
+                        <span asp-validation-for="Observaciones" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <input type="submit" value="Crear Pedido" class="btn btn-success btn-lg w-100" />
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-outline-secondary">Volver a la Lista</a>
+</div>
+
+@section Scripts {
+    @{
+        // Usa la llamada estándar para evitar duplicados si _Layout ya tiene scripts.
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

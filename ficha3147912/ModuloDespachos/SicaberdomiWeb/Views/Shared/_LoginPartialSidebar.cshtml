@@ -1,0 +1,28 @@
+﻿@using SicaberdomiWeb.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@* Usamos un div simple como contenedor *@
+<div>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @* AÑADIDO: border-0 *@
+        <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" class="list-group-item list-group-item-action text-light border-0">
+            <i class="bi bi-person-circle me-2"></i> Mi Cuenta (@User.Identity?.Name)
+        </a>
+
+        @* AÑADIDO: border-0 en el botón *@
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button type="submit" class="list-group-item list-group-item-action text-start w-100 bg-transparent text-light border-0">
+                <i class="bi bi-box-arrow-right me-2"></i> Logout
+            </button>
+        </form>
+    }
+    else
+    {
+        @* AÑADIDO: border-0 *@
+        <a asp-area="Identity" asp-page="/Account/Register" class="list-group-item list-group-item-action text-light border-0"><i class="bi bi-person-plus me-2"></i> Registrarse</a>
+        <a asp-area="Identity" asp-page="/Account/Login" class="list-group-item list-group-item-action text-light border-0"><i class="bi bi-box-arrow-in-right me-2"></i> Login</a>
+    }
+</div>

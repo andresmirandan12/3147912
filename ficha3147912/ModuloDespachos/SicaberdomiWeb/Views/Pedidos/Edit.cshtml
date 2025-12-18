@@ -1,0 +1,120 @@
+﻿@model SicaberdomiWeb.Models.Pedido
+@using SicaberdomiWeb.Models
+
+@{
+    ViewData["Title"] = "Editar Pedido";
+}
+
+<h1 class="text-primary mb-4">✍️ Editar Pedido #@Model.Id</h1>
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="card shadow p-4">
+            <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="FechaPedido" />
+                <input type="hidden" asp-for="ClienteId" />
+                
+                @* --- CLIENTENOMBRE (Solo editable por Admin, o el cliente mismo si no está asignado) --- *@
+                <div class="form-group mb-3">
+                    <label asp-for="ClienteNombre" class="form-label font-weight-bold"></label>
+                    @if (!User.IsInRole("Admin") && User.IsInRole("Domiciliario"))
+                    {
+                        <input asp-for="ClienteNombre" class="form-control" readonly />
+                    }
+                    else
+                    {
+                        <input asp-for="ClienteNombre" class="form-control" />
+                    }
+                    <span asp-validation-for="ClienteNombre" class="text-danger"></span>
+                </div>
+                
+                @* --- PRODUCTO/SERVICIO (Solo editable por Admin) --- *@
+                <div class="form-group mb-3">
+                    <label asp-for="Producto" class="form-label font-weight-bold"></label>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <select asp-for="Producto" class="form-control" asp-items="Html.GetEnumSelectList<TipoProducto>()"></select>
+                    }
+                    else
+                    {
+                        // Muestra el producto como texto no editable
+                        <input asp-for="Producto" class="form-control" readonly />
+                        <input type="hidden" asp-for="Producto" />
+                    }
+                    <span asp-validation-for="Producto" class="text-danger"></span>
+                </div>
+                
+                @* --- DIRECCIONENTREGA (Solo editable por Admin, o el cliente mismo si no está asignado) --- *@
+                <div class="form-group mb-3">
+                    <label asp-for="DireccionEntrega" class="form-label font-weight-bold"></label>
+                    @if (!User.IsInRole("Admin") && User.IsInRole("Domiciliario"))
+                    {
+                        <input asp-for="DireccionEntrega" class="form-control" readonly />
+                    }
+                    else
+                    {
+                        <input asp-for="DireccionEntrega" class="form-control" />
+                    }
+                    <span asp-validation-for="DireccionEntrega" class="text-danger"></span>
+                </div>
+
+                @* --- DOMICILIARIO ASIGNADO (SOLO VISIBLE Y EDITABLE POR ADMIN) --- *@
+                <div class="form-group mb-3 @(User.IsInRole("Admin") ? "alert alert-info" : "")">
+                    <label asp-for="DomiciliarioId" class="form-label font-weight-bold">👤 Domiciliario Asignado</label>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <select asp-for="DomiciliarioId" class="form-control" asp-items="ViewBag.DomiciliarioId">
+                            <option value="">-- Sin Asignar --</option> 
+                        </select>
+                    }
+                    else
+                    {
+                        // Muestra el email actual sin la opción de editar
+                        <input type="text" class="form-control" readonly value="@(Model.Domiciliario?.Email ?? "Sin Asignar")" />
+                        <input type="hidden" asp-for="DomiciliarioId" /> @* Enviamos el valor actual oculto *@
+                    }
+                    <span asp-validation-for="DomiciliarioId" class="text-danger"></span>
+                </div>
+
+                @* --- ESTADO ACTUAL (EDITABLE POR ADMIN Y DOMICILIARIO) --- *@
+                <div class="form-group mb-3">
+                    <label asp-for="Estado" class="form-label font-weight-bold"></label>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Domiciliario"))
+                    {
+                        // Ambos roles pueden actualizar el estado
+                        <select asp-for="Estado" class="form-control" asp-items="Html.GetEnumSelectList<EstadoEnvio>()"></select>
+                    }
+                    else
+                    {
+                        // El Cliente solo ve el estado actual como texto
+                        <input asp-for="Estado" class="form-control" readonly />
+                        <input type="hidden" asp-for="Estado" />
+                    }
+                    <span asp-validation-for="Estado" class="text-danger"></span>
+                </div>
+                
+                @* --- OBSERVACIONES (EDITABLE POR TODOS) --- *@
+                <div class="form-group mb-3">
+                    <label asp-for="Observaciones" class="form-label font-weight-bold"></label>
+                    <textarea asp-for="Observaciones" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Observaciones" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group mt-4">
+                    <input type="submit" value="Guardar Cambios" class="btn btn-primary btn-lg w-100" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-outline-secondary">Volver a la Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

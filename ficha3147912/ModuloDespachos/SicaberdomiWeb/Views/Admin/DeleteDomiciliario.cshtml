@@ -1,0 +1,38 @@
+﻿@model SicaberdomiWeb.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Eliminar Domiciliario";
+}
+
+<h2 class="text-danger">Confirmar Eliminación</h2>
+<h3>¿Está seguro de que desea eliminar al domiciliario **@Model.NombreCompleto** (@Model.Email)?</h3>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">
+            Nombre Completo
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NombreCompleto)
+        </dd>
+        <dt class="col-sm-3">
+            Email
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-3">
+            Teléfono
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteDomiciliario">
+        <input type="hidden" asp-for="Id" />
+        <a asp-action="Domiciliarios" class="btn btn-secondary me-2">Cancelar</a>
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
+    </form>
+</div>
